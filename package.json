@@ -1,0 +1,24 @@
+{
+  "name": "jquery-scrollspy",
+  "version": "1.0.0",
+  "description": "A jQuery Plugin for a ScrollSpy Navigation.",
+  "main": "jquery.scrollspy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/media4motion/jquery-scrollspy.git"
+  },
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "author": "Simon Menzel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/media4motion/jquery-scrollspy/issues"
+  },
+  "homepage": "https://github.com/media4motion/jquery-scrollspy#readme"
+}
