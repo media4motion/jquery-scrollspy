@@ -1,6 +1,6 @@
 {
   "name": "@media4motion/jquery-scrollspy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A jQuery Plugin for a ScrollSpy Navigation.",
   "main": "jquery.scrollspy.js",
   "scripts": {

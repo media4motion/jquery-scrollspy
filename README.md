@@ -6,6 +6,12 @@ Download [jquery.scrollspy.js](https://raw.githubusercontent.com/media4motion/jq
 
 Make sure to include jquery.scrollspy.js script file after jquery.js.
 
+### NPM:
+you can download the package also from NPM:
+```npm
+npm install @media4motion/jquery-scrollspy
+```
+
 ## Usage
 
 ```html
@@ -22,6 +28,9 @@ Make sure to include jquery.scrollspy.js script file after jquery.js.
 <div id="second">
     <!-- content -->
 </div>
+<div id="third">
+    <!-- content -->
+</div>
 
 <script type="text/javascript">
     $('.nav-element').scrollSpy();
@@ -33,7 +42,8 @@ $('.nav-element').scrollSpy({
     offset: 100, // default: 0
     offsetElement: '.sticky-header', // default: null
     activeClass: 'selected', // given to nav anchor of current position. default: 'active'
-    anchors: '.spy-link', // anchor selector. default: 'a[href*=\\#]'
+    anchors: [ '.spy-link' ], // Array of anchor selectors. default: ['a[href*=\\#]']
+    ignoreAnchors: [ 'a[href="#third"]', '.no-spy' ], // Array of anchor selectors to ignore. default: []
     scrollDuration: 800, // default: 0
     scrollEasing: 'easeInBack' // requires jQuery UI! default: 'swing'
 });
